@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+  width: 400px;
+  height: 120px;
+  margin: auto;
+  padding-top: 10px;
+  position: relative;
+}
+.navegacion{
+  width: 350px;
+  margin:  auto;
+  margin-top: -80px;
+  margin-left: 155px;
+  font-size: 15px;
+}
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'Fresca', sans-serif;
+  text-decoration: none;
+} 
+.menu li a:hover{
+  color: #CE7D35;
+  transition: all .3s;
+}
+
+.ContenedorImg{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .Imagenes{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .Imagenes ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+  
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+  }
+  .Imagenes li {
+    width: 100%;
+    list-style: none;
+  }
+  .Imagenes img {
+    width: 100%;
+  }
+  
+  @keyframes cambio{
+    0% {margin-left: 0;}
+    10% {margin-left: 0;}
+  
+    15% {margin-left: -100%;}
+    35% {margin-left: -100%;}
+  
+    40% {margin-left: -200%;}
+    60% {margin-left: -200%;}
+  
+    65% {margin-left: -300%;}
+    85% {margin-left: -300%;}
+
+    90%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+  }
+
+  .barra{
+    width: 80%;
+    height: 2.5px;
+    background-color: black;
+    margin: auto;
+  }
+  /**************FOOTER***********/
+  footer{
+    width: 90%;
+    height: 400px;
+    background-color: rgba(121, 121, 121, 0.7);
+    margin: auto;
+    margin-top: 20px;
+  }
+  h1{
+    color: black;
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .barra3{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+  }
+  h2{
+    color: black;
+    font-family: 'Fresca', sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+  }
+  .direccion{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .direccion1{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-left: 50px;
+  }
+  h3{
+    padding-left: 300px;
+    margin-top: -80px;
+    color: black;
+    font-family: 'Fresca', sans-serif;
+    font-size: 30px;
+  }
+  .contacto{
+    padding-top: 10px;
+    padding-left: 300px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+  }
+  .contacto2{
+    padding-left: 300px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 14px;
+    color: black;
+  }
+  h4{
+    color: black;
+    font-family: 'Fresca', sans-serif;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  .hrs1{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+  .hrs2{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-left: 50px;
+  }
+  .hrs3{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-top: 40px;
+    padding-left: 50px;
+  }
+  .hrs4{
+    font-family: 'Coming Soon', cursive;
+    font-size: 13px;
+    color: black;
+    padding-left: 50px;
+  }
+  .botonU{
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    margin-top: -50px;
+    margin-right: 20px;
+  }
+  .botonU:hover{
+    -webkit-box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px -1px 11px 0px rgba(0,0,0,0.75);
+  }
+  .textoU{
+    color: white;
+    font-size: 20px;
+    font-family: 'Fresca', sans-serif;
+    padding-left: 90px;
+    margin-top: -40px;
+  }
+  .imgU{
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+  }
+  .redesF{
+    width: 150px;
+    height: auto;
+    margin-top: -20px;
+    margin-left: 600px;
+  }
